@@ -3,7 +3,7 @@ import { Input } from "../ui/input"
 import { useSearchParams, useRouter } from "next/navigation"
 import { useDebouncedCallback } from "use-debounce"
 import { useState, useEffect } from "react"
-import { userAgent } from "next/server"
+// import { userAgent } from "next/server"
 
 function NavSearch() {
   const searchParams = useSearchParams()
